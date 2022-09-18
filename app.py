@@ -4,7 +4,7 @@ import numpy as np
 
 import plotly.express as px
 from datetime import datetime 
-from pil import Image
+from PIL import Image
 
 st.title("Birthday Celebration")
 today = datetime.now().strftime("%M%d, %Y")
