@@ -7,5 +7,5 @@ from datetime import datetime
 from pil import Image
 
 st.title("Birthday Celebration")
-today = datetime.now().strftime("%M%d, %Y)
+today = datetime.now().strftime("%M%d, %Y")
 st.markdown("%s", today)
