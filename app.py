@@ -8,5 +8,5 @@ from PIL import Image
 
 st.title("Birthday Celebration")
 today = datetime.now().strftime("%M%d, %Y")
-st.markdown("%s" today)
+st.markdown("%s" % (today))
 st.markdown("AMAR MANI TRIPATHI")
