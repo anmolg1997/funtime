@@ -47,7 +47,7 @@ original_title = '<h2 style="font-family:Courier; color:red; font-size: 50px;">B
 tattasur = '<h3> <span style="font-family:Courier; color:blue; font-size: 40px;">AMAR MANI TRIPATHI</span> <span style=color:black>urf</span> <span style="font-family:Courier; color:blue; font-size: 40px;"> TATTASUR</span></h3>'
 st.markdown(original_title, unsafe_allow_html=True)
 today = datetime.now() #.strftime("%b%d, %Y")
-bday = '2022-09-27'
+bday = '2024-09-27'
 bday_date = datetime.strptime(bday, '%Y-%m-%d')
 ts = round((bday_date - today).total_seconds())
 rm=ts//60
